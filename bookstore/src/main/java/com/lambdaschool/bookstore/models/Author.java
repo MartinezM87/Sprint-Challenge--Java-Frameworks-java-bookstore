@@ -81,4 +81,15 @@ public class Author
     {
         this.wrotes = wrotes;
     }
+
+    @Override
+    public String toString()
+    {
+        return "Author{" +
+            "authorid=" + authorid +
+            ", fname='" + fname + '\'' +
+            ", lname='" + lname + '\'' +
+            ", wrotes=" + wrotes +
+            '}';
+    }
 }
